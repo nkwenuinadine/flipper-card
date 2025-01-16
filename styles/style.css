@@ -42,18 +42,10 @@ button {
   justify-content: center;
   gap: 16px;
   grid-template-columns: repeat(6, 140px);
-  grid-template-rows: repeat(2, calc(140px / 2 * 3));
+  grid-template-rows: repeat(2, calc(140px / 2 * 2));
 }
 
-.cards {
-  width: 140px;
-  border-radius: 20px;
-  height: calc(140px / 2 * 3);
-  background-color: #242323;
-  position: relative;
-  transform-style: preserve-3d;
-  transform: all 0.5s ease-in-out;
-}
+
 
 .front-image {
   width: 60px;
@@ -83,12 +75,16 @@ button {
 
 .cards {
   width: 100px;
-  height: 150px;
   position: relative;
   perspective: 1000px;
   margin: 10px;
   display: inline-block;
-}
+  border-radius: 20px;
+  height: calc(130px / 2 * 1.5);
+  background-color: #242323;
+  transform-style: preserve-3d;
+  transform: all 0.5s ease-in-out;
+  }
 
 .cards .front,
 .cards .back {
