@@ -45,8 +45,6 @@ button {
   grid-template-rows: repeat(2, calc(140px / 2 * 2));
 }
 
-
-
 .front-image {
   width: 60px;
   height: 60px;
@@ -84,7 +82,7 @@ button {
   background-color: #242323;
   transform-style: preserve-3d;
   transform: all 0.5s ease-in-out;
-  }
+}
 
 .cards .front,
 .cards .back {
